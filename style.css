@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #414141;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.title-secondary {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.caption {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.container-sm {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.card {
+  background: #fff;
+  margin: 24px;
+  padding: 36px 64px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.cardback-color {
+  border-top: 6px solid #41436a;
+}
+
+input:focus,
+select:focus {
+  outline-style: none;
+}
+
+.input {
+  border: 1px solid #cfcfcf;
+  padding: 8px 16px;
+  border-radius: 3px;
+}
+
+.input::placeholder {
+  color: #7e7e7e;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 12px;
+}
+
+.input-field label {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.radio-field {
+  display: flex;
+  align-items: center;
+}
+
+.radio-field label {
+  margin: 0 0 0 6px;
+}
+
+.course-checkbox {
+  margin-right: 6px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fees-container {
+  margin-bottom: 12px;
+}
+
+.discount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount-percentage {
+  font-weight: 500;
+  color: #23ca7c;
+}
+
+.pre-discounted-price {
+  text-decoration: line-through;
+}
+
+.btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 3px;
+  background: #e2e2e2;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2b2b2b;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#backBtn {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.btn-primary {
+  background: #974063;
+  color: #fff;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  margin: 16px 0;
+  border: none;
+}
+
+.mb-sm {
+  margin-bottom: 12px;
+}
+
+.hidden {
+  display: none;
+}
